@@ -40,7 +40,7 @@ const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState(null); // Added state for profile dropdown
   const theme = useTheme();
   const [pages, setPages] = useState([ // Changed to use state for pages
-    { name: 'Home', path: '/', icon: <HomeIcon sx={{ color: 'white' }} /> },
+    { name: 'Home', path: '/pages/Home', icon: <HomeIcon sx={{ color: 'white' }} /> },
     { name: 'Add User', path: '/pages/AddUsers', icon: <BadgeIcon sx={{ color: 'white' }} /> },
     { name: 'Bulk Upload', path: '/pages/BulkUpload', icon: <AssessmentIcon sx={{ color: 'white' }} /> },
     { name: 'Allowance', path: '/pages/Allowance', icon: <AttachMoneyIcon sx={{ color: 'white' }} /> },
